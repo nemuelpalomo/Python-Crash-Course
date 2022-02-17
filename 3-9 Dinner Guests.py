@@ -1,0 +1,47 @@
+#3-9 Dinner Guests
+
+
+guests = ['nemuel', 'rico', 'orgado']
+
+going = []
+
+not_going = []
+
+dinnertable = []
+
+print(f"{guests[0].title()} is going for the dinner tonight.")
+
+print(f"{guests[1].title()} is also going for the dinner tonight.")
+
+print(f"{guests[2].title()} is not going for the dinner tonight.")
+
+going.append(guests[0])
+going.append(guests[1])
+not_going.append(guests[2])
+
+
+dinnertable.append(guests[0])
+dinnertable.append(guests[1])
+
+
+print(f"These 2 people are going {going[0].title()} and {going[1].title()}.")
+print(f"The dinner table has been occupied by 2 people now.")
+
+uninvited_guests = ['jana', 'alex', 'therese']
+
+party_crashers = []
+
+party_crashers.append(uninvited_guests[0])
+party_crashers.append(uninvited_guests[1])
+party_crashers.append(uninvited_guests[2])
+
+dinnertable.append(party_crashers[0])
+dinnertable.append(party_crashers[1])
+dinnertable.append(party_crashers[2])
+
+
+print(f"The dinner table now occupies more people. {dinnertable}")
+
+print(f"The number of guests invited to the dinner party is {len(guests)}.")
+
+print(f"The number of people that are going to dine on the dinner table is {len(dinnertable)}.")
